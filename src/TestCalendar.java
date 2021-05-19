@@ -22,7 +22,7 @@ public class TestCalendar {
         System.out.println(simpleDateFormat2.format(calendar2.getTime()));
 
         SimpleDateFormat simpleDateFormatFrench = new SimpleDateFormat("EEEEE MMMM yyyy HH:mm:ss", Locale.FRENCH);
-        SimpleDateFormat simpleDateFormatRusse = new SimpleDateFormat("EEEEE MMMM yyyy HH:mm:ss", new Locale("ru"));
+        SimpleDateFormat simpleDateFormatRusse = new SimpleDateFormat("EEEEE MMMM yyyy HH:mm:ss", Locale.forLanguageTag("ru"));
         SimpleDateFormat simpleDateFormatChinois = new SimpleDateFormat("EEEEE MMMM yyyy HH:mm:ss", Locale.CHINESE);
         SimpleDateFormat simpleDateFormatAllemand = new SimpleDateFormat("EEEEE MMMM yyyy HH:mm:ss", Locale.GERMAN);
 
